@@ -3,18 +3,7 @@
 Dockerized GeoServer.
 
 
-## Important deprecation notice
-
-Old GeoServer versions affected by a severe security vulnerability have been removed from this repo to prevent damage.
-Please update to most recent version where possible, or at least use a secure version:
-
-* If you are in a version lower than 2.23.x and you can't update, you will need to patch and build your own images, as we won't provide support or patched builds here. Please refer to [CVE-2024-36401 the official GeoServer post](https://geoserver.org/vulnerability/2024/09/12/cve-2024-36401.html) for details.
-* If you are in the 2.23.x series, use at least 2.23.6.
-* If you are in the 2.24.x series, use at least 2.24.5.
-* If you are in the 2.25.x series, use at least version 2.25.2.
-* If you are in 2.26.0 or higher, you are safe from this one.
-
-If you are concerned about security and want to keep GeoServer in good shape, [please consider supporting the key shift towards 3.0 release](https://geoserver.org/behind%20the%20scenes/2024/09/10/gs3.html).
+> **Note:** Starting with GeoServer 3, this Docker image will no longer be maintained. We recommend switching to the [official GeoServer Docker build](https://docs.geoserver.org/main/en/user/installation/docker/). If you need professional support, feel free to [contact us](https://geomatico.es/en/contact/).
 
 
 ## Features
@@ -34,7 +23,7 @@ If you are concerned about security and want to keep GeoServer in good shape, [p
 
 Latest versions with [automated builds](https://hub.docker.com/r/oscarfonts/geoserver/) available on [docker registry](https://registry.hub.docker.com/):
 
-* [`latest`, `2.28.3` (*2.28.3/Dockerfile*)](https://github.com/oscarfonts/docker-geoserver/blob/master/2.28.3/Dockerfile)
+* [`latest`, `2.28.4` (*2.28.4/Dockerfile*)](https://github.com/oscarfonts/docker-geoserver/blob/master/2.28.4/Dockerfile)
 * [`2.27.5` (*2.27.5/Dockerfile*)](https://github.com/oscarfonts/docker-geoserver/blob/master/2.27.5/Dockerfile)
 * [`2.26.4` (*2.26.4/Dockerfile*)](https://github.com/oscarfonts/docker-geoserver/blob/master/2.26.4/Dockerfile)
 * [`2.25.7` (*2.25.7/Dockerfile*)](https://github.com/oscarfonts/docker-geoserver/blob/master/2.25.7/Dockerfile)
